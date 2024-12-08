@@ -8,7 +8,7 @@ return {
 
       -- Configure linters for specific filetypes
       lint.linters_by_ft = {
-        markdown = { 'markdownlint' },
+
         javascript = { 'eslint' }, -- Use eslint_d for JavaScript
         typescript = { 'eslint' }, -- Use eslint_d for TypeScript
         javascriptreact = { 'eslint' }, -- Use eslint_d for JSX
